@@ -1,0 +1,4 @@
+172.18.0.1 - - [20/Jun/2023:18:24:00 +0000] "GET / HTTP/1.1" 500 1074663 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" "-"
+172.18.0.1 - - [20/Jun/2023:18:24:06 +0000] "GET /_ignition/health-check HTTP/1.1" 200 40 "http://localhost:86/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" "-"
+172.18.0.1 - - [20/Jun/2023:18:24:10 +0000] "POST /_ignition/execute-solution HTTP/1.1" 204 0 "http://localhost:86/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" "-"
+172.18.0.1 - - [20/Jun/2023:18:24:14 +0000] "GET / HTTP/1.1" 200 27550 "http://localhost:86/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" "-"
