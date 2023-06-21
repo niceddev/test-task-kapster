@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
         for ($i = 1; $i <= 300; $i++) {
             $users[] = [
                 'name'     => $faker->name,
-                'email'    => $faker->email,
+                'email'    => $faker->unique()->email,
                 'password' => bcrypt('123123'),
                 'role'     => ($i % 30 === 0) ? 1 : 0
             ];
