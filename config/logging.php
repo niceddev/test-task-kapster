@@ -126,6 +126,13 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+
+        'blockedPosts' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/blockedPosts.log'),
+            'level' => 'debug',
+        ],
+
     ],
 
 ];
