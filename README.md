@@ -3,7 +3,7 @@
 ## TO DO:
 
 ### docker-compose up -d --build
-### docker exec -it nidge_php bash
+### docker exec -it kapster_php bash
 ### composer i
 ### php artisan init
 
